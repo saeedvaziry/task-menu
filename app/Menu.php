@@ -82,7 +82,7 @@ class Menu extends Model
      */
     public function getItemsInLayer($layer)
     {
-        //
+        // I didn't understand this. If you explain more then i can implement it as fastest i can
     }
 
     /**
@@ -90,7 +90,7 @@ class Menu extends Model
      */
     public function deleteItemsInLayer($layer)
     {
-        //
+        // I didn't understand this. If you explain more then i can implement it as fastest i can
     }
 
     /**
