@@ -15,10 +15,11 @@ class CreateMenusTable extends Migration
     {
         Schema::create('menus', function (Blueprint $table) {
             $table->bigIncrements('id');
-
-            //
-
+            $table->string('field');
+            $table->tinyInteger('max_depth');
+            $table->tinyInteger('max_children');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
