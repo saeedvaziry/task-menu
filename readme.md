@@ -1,5 +1,7 @@
 # Menu manager
 
+[![Build Status](https://travis-ci.org/saeedvaziry/task-menu.svg?branch=master)](https://travis-ci.org/saeedvaziry/task-menu)
+
 ## Here what i did and didn't
 
 * Implementing API as you need
@@ -9,3 +11,4 @@
 * Used `API Resource` for sending responses
 * I did everything in SOLID principles
 * Used `Fakers` in tests.
+* Added travis ci to project. You can see build status at the top.
