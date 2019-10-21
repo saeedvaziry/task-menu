@@ -36,6 +36,9 @@ class MenuTest extends TestCase
         ]);
     }
 
+    /**
+     * Test get menu
+     */
     public function testGetMenu()
     {
         $menu = factory(Menu::class)->create();
@@ -49,6 +52,9 @@ class MenuTest extends TestCase
         ]);
     }
 
+    /**
+     * Test update menu
+     */
     public function testUpdateMenu()
     {
         $menu = factory(Menu::class)->create();
@@ -68,6 +74,9 @@ class MenuTest extends TestCase
         ]);
     }
 
+    /**
+     * Test delete menu
+     */
     public function testDeleteMenu()
     {
         $menu = factory(Menu::class)->create();
